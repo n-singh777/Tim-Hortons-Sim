@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tim Hortons Roll Up The Rim Simulator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>Tim Hortans Roll Up The Rim Simulator</h1>
+
+    <!--  Instructions -->
+    <p>Choose your province: <input id='input' type="text"></p>
+
+    <!-- Image & Results  -->
+    <img id="mainImg" src="images/TimHortonsLogo.png" style="width: 800px; height: 300px;">
+    <p><button id='plus5'>Plus 5</button><button id='untilGrandPrize'>Until a grand prize is won</button><button id='until500Donuts'>Until 500 donuts</button></p> 
+    
+    <p>
+      <strong>TOTALS -> </strong>
+      Please Play Again: <span id="playAgain">0</span> |
+      Free Coffee: <span id="freeCoffee">0</span> |
+      Free Donut: <span id="freeDonut">0</span> |
+      Grand Prize: <span id="grandPrize">0</span> |
+    <hr>
+
+    <p id="results"></p>
+  </div>
+
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
